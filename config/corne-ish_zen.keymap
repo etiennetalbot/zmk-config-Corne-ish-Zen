@@ -53,7 +53,7 @@
                         label = "RAISE";
                         bindings = <
    &none &none    &kp UP   &kp FSLH  &kp AMPS      &kp LPAR      &kp RPAR   &kp RA(MINUS)    &RA(GRAVE)    &none           &none              &none
-   &none &kp LEFT &kp DOWN &kp RIGHT &kp RA(COMMA) &kp RA(N7)    &kp RA(N8) &hm LGUI RA(DOT) &hm LALT C_PP &hm LCTL C_NEXT &hm LSHFT C_VOL_UP &none
+   &none &kp LEFT &kp DOWN &kp RIGHT &kp RA(COMMA) &kp RA(N7)    &kp RA(N8) &hm LGUI DOT &hm LALT C_PP &hm LCTL C_NEXT &hm LSHFT C_VOL_UP &none
    &none &none    &none    &kp RBKT  &kp MINUS     &kp RA(N9)    &kp RA(N0) &kp KP_PLUS      &kp K_MUTE    &kp C_PREV      &kp C_VOL_DN       &none
                            &none     &none         &kp F6        &none      &none            &none
                         >;
