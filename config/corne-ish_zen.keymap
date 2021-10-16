@@ -56,10 +56,10 @@
         adjust_layer {
             label = "ADJUST";
             bindings = <
-   &trans       &trans       &trans       &kp E        &trans   &kp EXCL     &kp AT   &kp U         &kp I  &kp O  &trans &trans
-   &trans       &kp A        &trans       &trans       &kp AMPS &kp HASH     &kp DLLR &kp RA(MINUS) &trans &trans &trans &trans
-   &trans       &trans       &trans       &trans       &trans   &kp PRCNT    &kp LBKT &trans        &trans &trans &trans &trans
-                                          &trans       &trans   &trans       &trans   &trans        &trans
+   &bt BT_CLR   &trans       &trans       &kp E  &trans   &kp EXCL     &kp AT   &kp U         &kp I  &kp O  &trans &trans
+   &trans       &kp A        &trans       &trans &kp AMPS &kp HASH     &kp DLLR &kp RA(MINUS) &trans &trans &trans &trans
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans &trans   &kp PRCNT    &kp LBKT &trans        &trans &trans &trans &trans
+                                          &trans &trans   &trans       &trans   &trans        &trans
             >;
         };
     };
