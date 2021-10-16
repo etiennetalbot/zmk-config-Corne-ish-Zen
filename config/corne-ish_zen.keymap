@@ -14,7 +14,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HRMODS";
             #binding-cells = <2>;
-            tapping-term-ms = <170>;
+            tapping-term-ms = <200>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -38,10 +38,10 @@
         lower_layer {
             label = "LOWER";
             bindings = <
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans   &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans   &trans &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp BSPC
+   &trans &trans &trans &trans &trans &trans   &trans &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp COMMA
+   &trans &trans &trans &trans &trans &trans   &trans &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp DOT
+                        &trans &trans &trans   &trans &trans &kp KP_N0
             >;
         };
     };
