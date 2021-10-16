@@ -47,10 +47,10 @@
         raise_layer {
             label = "RAISE";
             bindings = <
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans   &trans &trans &trans
+   &trans &trans   &kp UP   &kp FSLH  &kp AMPS      &kp LPAR     &trans &trans &trans &trans &trans &trans
+   &trans &kp LEFT &kp DOWN &kp RIGHT &kp RA(COMMA) &kp RA(N7)   &trans &trans &trans &trans &trans &trans
+   &trans &trans   &trans   &kp RBKT  &kp MINUS     &kp RA(N9)   &trans &trans &trans &trans &trans &trans
+                            &trans    &trans        &kp F6       &trans &trans &trans
             >;
         };
     };
