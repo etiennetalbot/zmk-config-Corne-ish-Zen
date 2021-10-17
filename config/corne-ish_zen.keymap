@@ -29,7 +29,17 @@
    &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q   &kp Q &kp Q &kp Q &kp Q &kp Q &bt BT_SEL 0
    &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q   &kp Q &kp Q &kp Q &kp Q &kp Q &bt BT_SEL 1
    &kp Q &kp Q &kp Q &kp Q &kp Q &kp Q   &kp Q &kp Q &kp Q &kp Q &kp Q &bt BT_CLR
-                     &kp Q &kp Q &kp Q   &kp Q &kp Q &kp Q
+                     &kp Q &kp Q &kp Q   &kp Q &kp Q &mo ARROW
+            >;
+        };
+
+        arrow_layer {
+            label = "ARROW";
+            bindings = <
+   &none &none     &none     &none    &none    &none   &none &none    &kp UP   &none     &none &none
+   &none &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &none   &none &kp LEFT &kp DOWN &kp RIGHT &none &none
+   &none &none     &none     &none    &none    &none   &none &none    &none    &none     &none &none
+                             &none    &none    &none   &none &none    &mo ARROW
             >;
         };
         /* default_layer {
