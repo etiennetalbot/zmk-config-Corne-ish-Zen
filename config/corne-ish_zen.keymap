@@ -14,11 +14,11 @@
 #define RAISE 3
 #define ADJUST 4
 
-&mt {
+/* &mt {
   tapping-term-ms = <200>;
   flavor = "tap-preferred";
 };
-
+ */
 / {
     keymap {
         compatible = "zmk,keymap";
