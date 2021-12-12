@@ -45,10 +45,10 @@
         arrow_layer {
             label = "ARROW";
             bindings = <
-   &trans    &none     &none     &none    &none    &none    &none  &none    &kp UP   &none     &none  &kp F6
-   &trans    &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &none    &none  &kp LEFT &kp DOWN &kp RIGHT &none  &kp F11
-   &kp LSHFT &kp LCTRL &kp LALT  &none    &none    &none    &none  &none    &none    &none     &none  &bt BT_NXT
-                                   &kp LGUI &none &trans    &trans &none &trans
+   &trans    &trans    &trans    &trans   &trans   &trans   &trans &trans   &kp UP   &trans    &trans       &kp F6
+   &trans    &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &trans   &trans &kp LEFT &kp DOWN &kp RIGHT &trans       &kp F11
+   &kp LSHFT &kp LCTRL &kp LALT  &trans   &trans   &trans   &trans &trans   &trans   &trans    &bt BT_SEL 0 &bt BT_SEL 1
+                                   &kp LGUI &trans &trans   &trans &trans &trans
             >;
         };
         lower_layer {
