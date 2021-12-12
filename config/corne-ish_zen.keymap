@@ -45,9 +45,9 @@
         arrow_layer {
             label = "ARROW";
             bindings = <
-   &trans    &trans    &trans    &trans   &trans   &trans   &trans &trans   &kp UP   &trans    &trans     &kp F6
-   &trans    &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &trans   &trans &kp LEFT &kp DOWN &kp RIGHT &trans     &kp F11
-   &kp LSHFT &kp LCTRL &kp LALT  &trans   &trans   &trans   &trans &trans   &trans   &trans    &bt BT_PRV &bt BT_NXT
+   &trans    &trans    &trans    &trans   &trans   &trans   &trans &trans   &kp UP   &trans    &trans &kp F6
+   &trans    &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &trans   &trans &kp LEFT &kp DOWN &kp RIGHT &trans &kp F11
+   &kp LSHFT &kp LCTRL &kp LALT  &trans   &trans   &trans   &trans &trans   &trans   &trans    &trans &bt BT_NXT
                                    &kp LGUI &trans &trans   &trans &trans &trans
             >;
         };
