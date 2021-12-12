@@ -9,6 +9,10 @@
 #define ADJUST 4
 
 / {
+    combos {
+        compatible = "zmk,combos";
+    };
+
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
